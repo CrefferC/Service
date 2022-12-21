@@ -1,0 +1,19 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Сервис"
+        xmlns:syncfusion="http://schemas.syncfusion.com/wpf" x:Class="Сервис.Window1"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid x:Name="grid">
+        <Grid.Background>
+            <ImageBrush  ImageSource="fon.jpg "/>
+        </Grid.Background>
+        <Label Name="l" Content="Печать" FontSize="28" Visibility="Visible" HorizontalAlignment="Center" Margin="297,0,107,0" VerticalAlignment="Top" Width="388" Height="48"/>
+        <DataGrid  x:Name="dataGrid1" Visibility="Visible" HorizontalAlignment="Left" Height="351" Margin="23,58,0,0" VerticalAlignment="Top" Width="596"/>
+        <Button x:Name="btn_Show" Visibility="Visible" Content="Показать записи" HorizontalAlignment="Left" Height="41" Margin="636,58,0,0" VerticalAlignment="Top" Width="146" Click="btn_Show_Click"/>
+        <Button x:Name="bntExport" Content="Печать" HorizontalAlignment="Left" Height="41" Margin="636,368,0,0" VerticalAlignment="Top" Width="146" Click="bntExport_Click"/>
+    </Grid>
+</Window>
