@@ -47,14 +47,6 @@ namespace Сервис
         {
             Window1 taskWindow = new Window1();
             taskWindow.Show();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Window3 taskWindow = new Window3();
-            taskWindow.Show();
-        }
-
-        
+        }        
     }
 }

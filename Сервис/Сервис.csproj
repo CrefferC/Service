@@ -140,26 +140,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="X_O\Computer.cs" />
     <Compile Include="Programm\Database4DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Database4DataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="X_O\Dispatcher .cs" />
-    <Compile Include="X_O\FirstPlayer.cs" />
-    <Compile Include="X_O\Logic.cs" />
-    <Compile Include="X_O\Messages.cs" />
-    <Compile Include="X_O\ResultChecker .cs" />
-    <Compile Include="X_O\SecondPlayer.cs" />
     <Compile Include="Programm\Show.xaml.cs">
       <DependentUpon>Show.xaml</DependentUpon>
     </Compile>
     <Compile Include="Programm\Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="X_O\Window3.xaml.cs">
-      <DependentUpon>Window3.xaml</DependentUpon>
     </Compile>
     <Compile Include="Programm\Window_insert.xaml.cs">
       <DependentUpon>Window_insert.xaml</DependentUpon>
@@ -167,10 +157,6 @@
     <Compile Include="Programm\Window_update.xaml.cs">
       <DependentUpon>Window_update.xaml</DependentUpon>
     </Compile>
-    <Page Include="X_O\DictionaryResource.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="Programm\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -188,10 +174,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Programm\Window1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="X_O\Window3.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -243,11 +225,9 @@
     <None Include="Programm\App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="X_O\cross.png" />
     <Content Include="Programm\Database4.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Resource Include="X_O\zero.png" />
     <Resource Include="Programm\1.txt" />
     <Content Include="Programm\Bd.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

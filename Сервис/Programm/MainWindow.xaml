@@ -48,7 +48,6 @@
         <Button x:Name="btn3"  Background="#2369" Content="Изменить существующую заявку" HorizontalAlignment="Left" Height="48" Margin="24,174,0,0" VerticalAlignment="Top" Width="217" Click="btn3_Click"/>
         <Button x:Name="btn4"  Background="#2369" Content="Распечатать квитанцию" HorizontalAlignment="Left" Height="48" Margin="24,227,0,0" VerticalAlignment="Top" Width="217" Click="btn4_Click"/>
         <Label Content="Автосервис" FontSize="28" HorizontalAlignment="Center" Margin="297,0,107,0" VerticalAlignment="Top" Width="388" Height="48"/>
-        <Button Name="btn" BorderBrush="Transparent" Background="Transparent" Style="{StaticResource MyButtonStyle}" Template="{DynamicResource ButtonTemplate}"   HorizontalAlignment="Left" Height="265" Margin="492,85,0,0" VerticalAlignment="Top" Width="228" Click="Button_Click" />
 
     </Grid>
 </Window>
